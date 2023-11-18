@@ -1,0 +1,105 @@
+/* Reset some default styles */
+body {
+  background: url('https://st.depositphotos.com/4514073/59538/i/450/depositphotos_595386334-stock-photo-set-cosmetic-skin-care-products.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Signup container */
+.signup-container {
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 8px 8px 10px rgba(75, 224, 34, 0.2);
+  text-align: center;
+}
+
+/* Heading */
+.signup-heading {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form container */
+.signup-form {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Form group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form input */
+.form-control {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #a85757;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* Add a hover effect for form controls */
+.form-control:hover {
+  border-color: slategray; 
+}
+
+/* Already registered message */
+.already-registered {
+  text-align: center;
+}
+
+/* Signup button */
+.signup-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Add a border style and adjust border width on hover */
+.signup-button:hover {
+  border: 2px solid #007bff;
+}
+
+/* Disabled signup button style */
+.signup-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Add a subtle underline to links */
+.text-decoration-underline {
+  text-decoration: underline;
+}
+
+/* Blue text for informative links */
+.text-info {
+  color: #007bff;
+}
+
+/* Margin for the top and bottom of the form */
+.top-margin {
+  margin: 40px 0;
+}
+
+/* Add a hover effect for the signup container */
+.signup-container:hover {
+  background-color: #f5f5f5; /* Change the background color on hover */
+  box-shadow: 8px 8px 20px rgba(75, 224, 34, 0.4); /* Adjust the box shadow on hover */
+  transform: scale(1.02); /* Apply a slight scale transformation on hover */
+}

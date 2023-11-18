@@ -1,0 +1,47 @@
+/* CSS for styling the FAQ component */
+
+/* Styling for the FAQ container */
+.faqParent {
+    background-color: #3f3e40;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Styling for the FAQ title */
+  .faq-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for each FAQ row (question and answer) */
+  .faq-row {
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Styling for the FAQ question (title) */
+  .faq-question {
+    font-weight: bold;
+    color: #007bff; /* Blue color for the question title */
+  }
+  
+  /* Styling for the FAQ answer (content) */
+  .faq-answer {
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Styling for the expand/collapse icons */
+  .faq-expand-icon {
+    font-size: 24px;
+    color: #007bff; /* Blue color for the expand icon */
+  }
+  
+  .faq-collapse-icon {
+    font-size: 24px;
+    color: #007bff; /* Blue color for the collapse icon */
+  }
+  
